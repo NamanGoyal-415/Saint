@@ -175,6 +175,7 @@
     background: var(--Gradient-H, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
     transition: all 300ms linear;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 
@@ -199,7 +200,8 @@
 }
 
 .S1-btn:hover,
-.S2-btn:hover {
+.S2-btn:hover,
+.h-btn:hover {
     border: 1px solid #F06500;
     background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%);
     background-clip: text;
